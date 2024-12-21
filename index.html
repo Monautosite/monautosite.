@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MonAutoSite</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">MonAutoSite</div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#catalog">Catalogue</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Slider Section -->
+        <section id="home" class="slider">
+            <div class="slide active" style="background-image: url('https://via.placeholder.com/1200x400?text=Promotion+Tesla');">
+                <h2>Promotion spéciale sur la Tesla Model 3</h2>
+            </div>
+            <div class="slide" style="background-image: url('https://via.placeholder.com/1200x400?text=Offre+Toyota');">
+                <h2>Découvrez la Toyota Corolla Hybride</h2>
+            </div>
+            <div class="slide" style="background-image: url('https://via.placeholder.com/1200x400?text=BMW+Série+3');">
+                <h2>BMW Série 3 à partir de 48 000 €</h2>
+            </div>
+            <div class="slider-controls">
+                <button class="prev">&lt;</button>
+                <button class="next">&gt;</button>
+            </div>
+        </section>
+
+        <!-- Catalogue Section -->
+        <section id="catalog" class="catalog">
+            <h2>Nos Meilleures Offres</h2>
+            <div class="car-list">
+                <div class="car-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Tesla Model 3">
+                    <h3>Tesla Model 3</h3>
+                    <p>Année : 2023</p>
+                    <p>Prix : 42 000 €</p>
+                    <button class="details-btn">Voir les détails</button>
+                </div>
+                <div class="car-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Toyota Corolla">
+                    <h3>Toyota Corolla</h3>
+                    <p>Année : 2023</p>
+                    <p>Prix : 25 500 €</p>
+                    <button class="details-btn">Voir les détails</button>
+                </div>
+                <div class="car-item">
+                    <img src="https://via.placeholder.com/300x200" alt="BMW Série 3">
+                    <h3>BMW Série 3</h3>
+                    <p>Année : 2023</p>
+                    <p>Prix : 48 000 €</p>
+                    <button class="details-btn">Voir les détails</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <h2>À propos de nous</h2>
+            <p>MonAutoSite est votre partenaire de confiance pour l'achat de voitures neuves et d'occasion.</p>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <p>&copy; 2024 MonAutoSite - Tous droits réservés.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
